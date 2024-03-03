@@ -6,6 +6,7 @@
     --nav-bg-color: #03045e;
     --hobbies-bg-color: #540b0e;
     --section-padding: 15px 50px 15px 50px;
+    --line-height:27px;
     --logo_font_size: 25px;
     --nav_font_size: 20px;
     --section_heading_font_size: 35px;
@@ -125,7 +126,7 @@ body {
 .intro {
     font-size: var(--content_font_size);
     text-align: justify;
-    line-height: 27px;
+    line-height: var(--line-height);
     margin-top: 0%;
 }
 
@@ -291,6 +292,44 @@ body {
     padding: var(--section-padding);
 }
 
+.blogscontainer
+{
+    border: 2px solid var(--nav-bg-color);
+    border-radius: 10px;
+    background-color:var(--section_color);
+    padding:5px 5px 5px 15px;
+    margin-bottom:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blogholder
+{
+    display:flex;
+}
+
+.blogholder img
+{
+    display: block;
+    width: 350px;
+    height: 200px;
+    margin:auto;
+}
+
+.blogcontentholder
+{
+    padding:25px;
+}
+.blogheader
+{
+    font-size: var(--section-content-heading);
+    font-weight: bold;
+}
+.blogcontent
+{
+    font-size:var(--content_font_size);
+    line-height:var(--line-height);
+    text-align: justify;
+}
 /** Mobile Display **/
 @media only screen and (max-width:500px) {
     .container {
