@@ -13,13 +13,13 @@
     --section-content-heading: 25px;
     --content_font_size: 20px;
     --subtags-font-size: 18px;
-    --logo_font_size_mobileversion: 40px;
-    --nav_font_size_mobileversion: 30px;
-    --section_heading_font_size_mobileversion: 50px;
-    --section-content-heading_mobileversion:40px;
-    --content_font_size_mobileversion: 30px;
-    --subtags-font-size_mobileversion: 25px;
-    --line-height-mobileversion:50px;
+    --logo_font_size_mobileversion: 50px;
+    --nav_font_size_mobileversion: 40px;
+    --section_heading_font_size_mobileversion: 60px;
+    --section-content-heading_mobileversion:50px;
+    --content_font_size_mobileversion:40px;
+    --subtags-font-size_mobileversion: 30px;
+    --line-height-mobileversion:75px;
    
    
 }
