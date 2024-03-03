@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alice&family=Prata&family=Trirong&family=Alegreya+Sans&display=swap"
+        rel="stylesheet">
+    <script src="./js/script.js"></script>
+    <title>Albert Einstien</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navigation" class="headernav">
+            <a href="#" class="logo">Einstien</a>
+            <a href="#aboutme">AboutMe</a>
+            <a href="#books">Books</a>
+            <a href="#papers">Papers</a>
+            <a href="#awards">Awards</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#blogs">Blogs</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+
+        <section id="aboutme" href="aboutme">
+            <div class="sectionheadingcontainer">
+                <p class="sectionheading">About Me</p>
+            </div>
+
+            <div id="profilepiccontainer">
+                <img src="./assets/images/Einstien's_Profile_Pic.jpg" alt="Einstien's image" id="profilepic">
+                <img src="./assets/images/Einstien's_Signature.png" alt="Einstien's signature" id="signature">
+            </div>
+
+            <div id="introcontainer">
+                <p class="intro">
+                    Hi!! I am <em><b>Albert Einstien</b></em> and I was born on March 14, 1879 in the small city of Ulm,
+                    Germany.
+                    My father, Hermann, worked with electrical equipment, while my mother,
+                    Pauline, was a talented pianist who adored music. My younger sister and
+                    lifelong companion, Maja, was two years my junior.
+                </p>
+                <p class="intro">
+                    I am best known for developing the theory of relativity and making significant contributions to
+                    quantum mechanics, thus playing a central role in revolutionizing the scientific understanding of
+                    nature in the early twentieth century. The mass-energy equivalence formula E=mc^2, which stems from
+                    relativity theory, is often referred to as "The world's most famous equation." I was awarded the
+                    Nobel Prize in Physics in 1921 for my contributions to theoretical physics, particularly for
+                    discovering the law of the photoelectric effect, a crucial advancement in quantum theory.
+                </p>
+            </div>
+        </section>
+
+        <section id="books" href="books">
+            <p class="sectionheading">Books</p>
+            <div class="bookscontainer">
+                <div class="bookholder">
+                    <img src="./assets/images/Books/Book-1.jpg" alt="This is a book image">
+                    <p class="bookname">Relativity</p>
+                    <p class="year"><b>Published on: </b>1916</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./assets/images/Books/Book-2.jpg" alt="This is a book image">
+                    <p class="bookname">The Meaning of Relativity</p>
+                    <p class="year"><b>Published on: </b>1922</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./assets/images/Books/Book-3.jpg" alt="This is a book image">
+                    <p class="bookname">The Evolution of Physics</p>
+                    <p class="year"><b>Published on: </b>1938</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./assets/images/Books/Book-5.jpeg" alt="This is a book image">
+                    <p class="bookname">Out of My Later Years</p>
+                    <p class="year"><b>Published on: </b>1950</p>
+                </div>
+
+                <div class="bookholder">
+                    <img src="./assets/images/Books/Book-4.jpg" alt="This is a book image">
+                    <p class="bookname">Ideas and Opinions</p>
+                    <p class="year"><b>Published on: </b>1954</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="papers" href="papers">
+            <p class="sectionheading">Papers</p>
+            <div class="papercontainer">
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./assets/images/science-paper.jpg" alt="This is a paper image">
+                    </div>
+
+                    <div class="paperdesc">
+                        <p class="papername">Special Theory of Relativity </p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    On the Electrodynamics of Moving Bodies.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="aboutpaper">
+                                    Introduced the concepts of time dilation and length contraction,
+                                    challenging classical notions of space and time.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./assets/images/science-paper.jpg" alt="This is a paper image">
+                    </div>
+                    <div class="paperdesc">
+                        <p class="papername">Photoelectric Effect </p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    On a Heuristic Viewpoint Concerning the Production and Transformation
+                                    of Light.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="aboutpaper">
+                                    Proposed that light consists of discrete packets of energy called photons, which
+                                    laid
+                                    the groundwork for quantum theory.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="papercontainer" id="papercont2">
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./assets/images/science-paper.jpg" alt="This is a paper image">
+                    </div>
+                    <div class="paperdesc">
+                        <p class="papername">Brownian Motion</p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    On the Movement of Small Particles Suspended in a Stationary Liquid Demanded by the
+                                    Molecular-Kinetic Theory of Heat.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="aboutpaper">
+                                    Explained the erratic motion of particles in a fluid as evidence of the existence of
+                                    atoms and molecules, supporting the atomic theory.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="paperholder">
+                    <div class="paperimage">
+                        <img src="./assets/images/science-paper.jpg" alt="This is a paper image">
+                    </div>
+                    <div class="paperdesc">
+                        <p class="papername">Mass-Energy Equivalence</p>
+                        <p class="paperyear"><b>Year:</b>1905</p>
+                        <ul>
+                            <li>
+                                <p class="aboutpaper">
+                                    Does the Inertia of a Body Depend Upon Its Energy Content?
+                                </p>
+                            </li>
+                            <li>
+                                <p class="aboutpaper">
+                                    Introduced the famous equation E=mc^2, which demonstrates the equivalence of mass
+                                    and energy and has profound implications for nuclear physics.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="awards">
+            <p class="sectionheading">Awards</p>
+            <div class="awardscontainer">
+                <div class="awardholder">
+                    <img src="./assets/images/Awards/Nobel_Prize.png" alt="This is a Nobel Prize Image">
+                    <p>Nobel Prize in Physics (1921)</p>
+                    
+                </div>
+                <div class="awardholder">
+                    <img src="./assets/images/Awards/Copley_Medal.png" alt="This is Copley Medal image">
+                    <p>Copley Medal (1925)</p>
+                </div>
+                <div class="awardholder" id="frankin-cont">
+                    <img src="./assets/images/Awards/Franklin_Medal.png" id="franklin-medal" alt="This is Franklin Medal image">
+                    <p>Franklin Medal (1935) </p>
+                </div>
+                <div class="awardholder">
+                    <img src="./assets/images/Awards/Times_Award.jpg" alt="This is Times Award image">
+                    <p>Time Magazine's Person of the Century (1999)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <p class="sectionheading">Gallery</p>
+            <div class="gallerycontainer">
+                <img src="./assets/images/Gallery/Einstien_Childhood-1.jpeg" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstien_Childhood-2.jpeg" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstien_Childhood-3.JPG" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstein_tongue.jpg" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstien_Group.JPG" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstien_Teaching.JPG" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstine_emc2.jpg" alt="Gallery">
+                <img src="./assets/images/Gallery/Einstien_Openhimer.JPG" alt="Gallery">
+                <img src="assets/images/Gallery/Einstien_Charlie_Chaplin.JPG" alt="Gallery">
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <p class="sectionheading">Hobbies</p>
+            <div class="hobbiescontainer">
+                <div class="hobbieholder">
+                    <img src="./assets/images/Hobbies/Puzzle.png">
+                    <button disabled>Solving Puzzles</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./assets/images/Hobbies/Reading.png">
+                    <button disabled>Reading Books</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./assets/images/Hobbies/Vilon.PNG">
+                    <button disabled>Playing Vilon</button>
+                </div>
+                <div class="hobbieholder">
+                    <img src="./assets/images/Hobbies/Travelling.jpg">
+                    <button disabled>Travelling</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="blogs">
+            <p class="sectionheading">Blogs</p>
+        </section>
+    </div>
+</body>
+
+</html>
