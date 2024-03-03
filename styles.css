@@ -524,4 +524,28 @@ body {
         margin-bottom:30px;
     }
     
+    .blogholder
+    {
+        display:block;
+    }
+    
+    .blogholder img
+    {
+        display: block;
+        width: 500px;
+        height: 350px;
+        margin:auto;
+        margin-top:40px;
+    }
+    
+    .blogheader
+    {
+        text-align: center;
+        font-size: var(--section-content-heading_mobileversion);
+    }
+    .blogcontent
+    {
+        font-size:var(--content_font_size_mobileversion);
+        line-height:var(--line-height-mobileversion);
+    }
 }
